@@ -12,7 +12,10 @@ class Handler(BaseHTTPRequestHandler):
         req = urllib.request.Request(
             GS_URL,
             data=body,
-            headers={"Content-Type": "application/json"},
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "Mozilla/5.0"
+            },
             method="POST",
         )
 
