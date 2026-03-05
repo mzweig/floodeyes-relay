@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import urllib.request
 import os
 
-GS_URL = "https://script.google.com/macros/s/AKfycbw97vCsHukISTL7CiZlIJqPehSkmZIacwTDqkttENzYul556w0B40CTPizaZxhCdM_C/exec"
+GS_URL = "https://script.google.com/macros/s/AKfycbwiAm5Jp9dqdneNTQVQ5MmD5Yd5Wt7aXLIpXrbrosPhRLZMatvB40KqU3IP2ZLJTIS6/exec"
 
 class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
